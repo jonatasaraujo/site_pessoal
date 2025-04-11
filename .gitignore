@@ -1,4 +1,6 @@
-dicas.txt
+dicas_github.txt
+apps/_base/static
+apps/_base/templates
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
