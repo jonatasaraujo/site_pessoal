@@ -763,7 +763,12 @@
                                 title="">Bolby</a></span>
                     </div><!-- Post Info -->
                 </div><!-- Post Box -->
-                <p class="secTitle relative"><a href="{% url 'blog' %}" title="Ver mais postagens">→ Mais Postagens</p>
+                
+            </div>
+            <div class="mt-10 block text-center w-full">
+                <a class="bg-primary text-white inline-block relative rounded-full text-base font-bold leading-none overflow-hidden py-3 px-8 before:bg-primary2 before:scale-x-0 before:opacity-0 hover:before:scale-x-100 hover:before:opacity-100 before:-z-[1] z-[1] before:inset-0 before:absolute hover:text-secondary focus:text-secondary text-center loadMore"
+                    href="{% url 'blog' %}" title="Load more" id="loadMore">Load more</a>
+                <p class="noMorePosts">No more posts to load</p>
             </div>
         </div><!-- Blog Wrap -->
     </div>
